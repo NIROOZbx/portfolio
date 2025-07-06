@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}  
+a[href]{
+    text-decoration: none;
+    color: black;
+
+}
+.navbar-third a:hover{
+    background-color: #cdcd8c;
+    display:flex ;
+    justify-content: center;
+
+}
+.nav-section{
+    background-color:#eeeee4;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* .first-section{
+    background-color: aqua;
+}
+.second-section{
+    background-color: black;
+} */
+
+button{
+    border: none;
+    background-color: #eeeee4;
+    border-radius: 30px;
+    
+}
+.btn1,.btn2{
+    height: 3.5rem;
+    width: 7rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    font-family:raleway;
+}
+.btn1:hover,
+.btn2:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: box-shadow 0.2 ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+    background-color: #cdcd8c;
+
+}
+.second-section img{
+border-radius: 50%;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.second-section img:hover{
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+    transition: box-shadow 0.5 linear;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.images img{
+    width: 20px;
+    height: 20px;
+}
+.git:hover{
+
+filter: drop-shadow(0 0 6px #6e5494);
+transition: transform 0.2s ease;
+    transform: scale(1.1);
+}
+.x:hover{
+filter: drop-shadow(0 0 6px #1da1f2);
+transition: transform 0.2s ease;
+    transform: scale(1.1);
+}
+.link:hover{
+    filter: drop-shadow(0 0 6px #0077b5);
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+
+}
+.skill-section img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.main{
+    border-radius: 10px;
+    background-color: #efefe6;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.img-hover:hover{
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+    transition: box-shadow 0.5 linear;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.card{
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+
+}
+.card:hover{
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+    transition: box-shadow 0.5 linear;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.about{
+    background-color: #eeeee4;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 10px;
+}
+.about-img img{
+box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.about-img img:hover{
+
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+    transition: box-shadow 0.5 linear;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(109, 131, 0, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.btn:hover{
+    background-color: #a1a6a9;
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+    transition: box-shadow 0.5 linear;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(109, 131, 0, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+}
+.last-con{
+    border-radius: 10px;
+    background-color: #eeeee4;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(109, 131, 0, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+
+}
+.type {
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typewriter 2s steps(13) 2 alternate,
+                blink 800ms steps(13) infinite normal;
+            border-right: 5px solid black;
+        }
+
+        @keyframes typewriter {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 280px;
+            }
+        }
+
+        @keyframes blink {
+            from {
+                border-color: black;
+            }
+
+            to {
+                border-color: transparent;
+            }
+        }
